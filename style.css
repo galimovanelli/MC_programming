@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .main {
     background: url(https://eduexp.ru/wp-content/uploads/2022/01/background_progr.png);
     background-repeat: no-repeat;
@@ -45,8 +49,9 @@
 }
 
 .main__btn {
-    padding: 0 0 0 145px;
+    padding: 0 0 0 84px;
     margin: 53px 0 372px 0;
+    cursor: pointer;
 }
 
 .main__col_2 {
@@ -321,6 +326,10 @@
 .end__img.second,
 .end__text.second {
     display: none;
+}
+
+.end__btn {
+    cursor: pointer;
 }
 
 @media (max-width: 1626px) {
