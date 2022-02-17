@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.main {
+.start-block {
     background: url(https://eduexp.ru/wp-content/uploads/2022/01/background_progr.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,43 +18,43 @@ body {
     text-transform: uppercase;
 }
 
-.main__head {
+.start-block__head {
     color: #FFFFFF;
     width: 608px;
     margin: 306px 0 24px 0;
 }
 
-.main__wrap-col {
+.start-block__wrap-col {
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
 }
 
-.main__col_1 {
+.start-block__col_1 {
     display: flex;
     flex-direction: column;
 }
 
-.main__col_1_2 {
+.start-block__col_1_2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.main__head_color {
+.start-block__head_color {
     display: flex;
     align-items: center;
     margin-left: -35px;
 }
 
-.main__btn {
+.start-block__btn {
     padding: 0 0 0 84px;
     margin: 53px 0 372px 0;
     cursor: pointer;
 }
 
-.main__col_2 {
+.start-block__col_2 {
     display: flex;
     align-items: center;
 }
@@ -261,7 +261,7 @@ body {
     margin: 23px 16px 0 0;
 }
 
-.end__head_1 {
+.end-block__head_1 {
     text-shadow: 4px 0px 0px #00df3e;
     width: 608px;
     background: url(https://eduexp.ru/wp-content/uploads/2022/01/fire.png);
@@ -275,7 +275,7 @@ body {
     margin: 150px 0 0 0;
 }
 
-.end__head_2 {
+.end-block__head_2 {
     text-shadow: 4px 0px 0px #FF2020;
     width: 652px;
     background: url(https://eduexp.ru/wp-content/uploads/2022/01/sword.png);
@@ -289,51 +289,51 @@ body {
     align-self: end;
 }
 
-.end__head_3 {
+.end-block__head_3 {
     display: flex;
     align-items: center;
     margin: 290px 0 0 143px;
 }
 
-.end__head_3>p {
+.end-block__head_3>p {
     text-shadow: 4px 0px 0px #CD00EF;
     width: 713px;
     margin: 0;
 }
 
-.end__wrap {
+.end-block__wrap {
     display: flex;
     flex-direction: column;
     width: 88%;
     margin: auto;
 }
 
-.end__head_4 {
+.end-block__head_4 {
     display: flex;
     justify-content: space-evenly;
     margin: 256px 0 274px 0;
 }
 
-.end__text {
+.end-block__text {
     text-shadow: 4px 0px 0px #FAFF00;
     width: 702px;
 }
 
-.main__col_1>img {
+.start-block__col_1>img {
     display: none;
 }
 
-.end__img.second,
-.end__text.second {
+.end-block__img.second,
+.end-block__text.second {
     display: none;
 }
 
-.end__btn {
+.end-block__btn {
     cursor: pointer;
 }
 
 @media (max-width: 1626px) {
-    .main__col_2>img {
+    .start-block__col_2>img {
         width: 98%;
     }
     .about__text_col {
@@ -348,49 +348,49 @@ body {
 }
 
 @media (max-width: 950px) {
-    .main__col_1>img {
+    .start-block__col_1>img {
         display: flex;
     }
-    .main__col_2 {
+    .start-block__col_2 {
         display: none;
     }
-    .main__col_1 {
+    .start-block__col_1 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .main__col_1>img {
+    .start-block__col_1>img {
         width: 207px;
         margin: 76px 0 54px 0;
     }
-    .main__head {
+    .start-block__head {
         text-align: center;
         margin-top: 118px;
     }
-    .main__btn {
+    .start-block__btn {
         padding: 0;
         margin-bottom: 61px;
     }
-    .main__btn>img {
+    .start-block__btn>img {
         width: 186px;
     }
-    .main__wrap-col {
+    .start-block__wrap-col {
         justify-content: center;
     }
-    .main__img_smile {
+    .start-block__img_smile {
         width: 35px;
     }
-    .main__img_text {
+    .start-block__img_text {
         width: 235px;
     }
-    .main__col_1_2 {
+    .start-block__col_1_2 {
         align-items: center;
     }
     .text_head {
         font-size: 24px;
         line-height: 130.2%;
     }
-    .main__head {
+    .start-block__head {
         width: 258px;
     }
     .about__head {
@@ -531,7 +531,7 @@ body {
     .speaker__head {
         text-shadow: 2px 0px 0px #edf400;
     }
-    .end__head_1 {
+    .end-block__head_1 {
         width: 156px;
         background-size: 95px;
         height: 127px;
@@ -539,57 +539,57 @@ body {
         padding: 0 0 0 50px;
         margin: 85px 0 0 0;
     }
-    .end__head_2.text_head {
+    .end-block__head_2.text_head {
         background-size: 65px;
         height: 65px;
         padding: 0 65px 0 0;
         align-self: end;
         width: auto;
     }
-    .end__head_3 {
+    .end-block__head_3 {
         justify-content: center;
         margin: 51px 0 0 0;
     }
-    .end__head_3>p {
+    .end-block__head_3>p {
         text-shadow: 2px 0px 0px #cd00ef;
         width: 250px;
     }
-    .end__head_3>img {
+    .end-block__head_3>img {
         width: 77px;
     }
-    .end__img.second,
-    .end__text.second {
+    .end-block__img.second,
+    .end-block__text.second {
         display: block;
     }
-    .end__img.first,
-    .end__text.first {
+    .end-block__img.first,
+    .end-block__text.first {
         display: none;
     }
-    .end__head_4 {
+    .end-block__head_4 {
         flex-direction: column;
         margin: 57px 0 113px 0;
     }
-    .end__block {
+    .end-block__block {
         display: flex;
         justify-content: center;
     }
-    .end__img.second>img {
+    .end-block__img.second>img {
         transform: rotate( -90deg);
         width: 36px;
     }
-    .end__text.text_head.second {
+    .end-block__text.text_head.second {
         width: 271px;
         margin-left: 47px;
     }
-    .end__text.text_head.second {
+    .end-block__text.text_head.second {
         width: 271px;
         margin-left: 47px;
         margin-bottom: 59px;
     }
-    .end__btn>img {
+    .end-block__btn>img {
         width: 149px;
     }
-    .end__btn {
+    .end-block__btn {
         margin: auto;
     }
     .speaker__text.experience {
@@ -598,7 +598,7 @@ body {
     .speaker__block_grey {
         margin: 0 0 4px 0;
     }
-    .end__img.first>img {
+    .end-block__img.first>img {
         margin: 0 85px;
     }
 }
@@ -610,7 +610,7 @@ body {
     .speaker__block_grey {
         width: 50px;
     }
-    .main__head_color {
+    .start-block__head_color {
         margin-left: 0;
     }
 }
