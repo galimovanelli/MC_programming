@@ -424,6 +424,9 @@ body {
     .about__btn {
         margin: 0 0 71px 0;
     }
+    .about__btn>a>img {
+        width: 109px;
+    }
     .speaker__head {
         padding: 66px 0 64px 0;
         width: 163px;
