@@ -31,12 +31,12 @@ body {
     margin: auto;
 }
 
-.start-block__col_1 {
+.start-block__col_left {
     display: flex;
     flex-direction: column;
 }
 
-.start-block__col_1_2 {
+.start-block__text-block {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -52,6 +52,8 @@ body {
     padding: 0 0 0 84px;
     margin: 53px 0 372px 0;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 .start-block__col_2 {
@@ -74,8 +76,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
-    line-height: 130.2%;
-    /* or 46px */
+    line-height: 46px;
     color: #000000;
     width: 380px;
 }
@@ -90,6 +91,12 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 0 157px 0;
+}
+
+.about__btn>button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .about__img_star {
@@ -182,10 +189,6 @@ body {
     align-items: center;
 }
 
-.speaker__head_2>p {
-    margin: 80px 0 30px 0;
-}
-
 .speaker__block_grey_2 {
     width: 502px;
     height: 44px;
@@ -208,6 +211,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.speaker__block_grey {
+    margin: 0;
 }
 
 .text_green {
@@ -249,15 +256,15 @@ body {
     padding: 0 0 129px 0;
 }
 
-.speaker__col_1 {
+.speaker__col_personage {
     margin: 71px 0 0 88px;
 }
 
-.speaker__col_2 {
+.speaker__col_description {
     margin: 80px 0 0 4px;
 }
 
-.speaker__col_3>img {
+.speaker__col_close-img>img {
     margin: 23px 16px 0 0;
 }
 
@@ -319,7 +326,7 @@ body {
     width: 702px;
 }
 
-.start-block__col_1>img {
+.start-block__col_left>img {
     display: none;
 }
 
@@ -330,6 +337,14 @@ body {
 
 .end-block__btn {
     cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.end-block__img.first {
+    margin: 0 85px;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 1626px) {
@@ -348,18 +363,18 @@ body {
 }
 
 @media (max-width: 950px) {
-    .start-block__col_1>img {
+    .start-block__col_left>img {
         display: flex;
     }
     .start-block__col_2 {
         display: none;
     }
-    .start-block__col_1 {
+    .start-block__col_left {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .start-block__col_1>img {
+    .start-block__col_left>img {
         width: 207px;
         margin: 76px 0 54px 0;
     }
@@ -383,7 +398,7 @@ body {
     .start-block__img_text {
         width: 235px;
     }
-    .start-block__col_1_2 {
+    .start-block__text-block {
         align-items: center;
     }
     .text_head {
@@ -424,8 +439,11 @@ body {
     .about__btn {
         margin: 0 0 71px 0;
     }
-    .about__btn>a>img {
+    .about__btn img {
         width: 109px;
+    }
+    .about__img_star {
+        margin: 0;
     }
     .speaker__head {
         padding: 66px 0 64px 0;
@@ -434,13 +452,13 @@ body {
         display: flex;
         margin: auto;
     }
-    .speaker__col_1 {
+    .speaker__col_personage {
         margin: 40px 0 0 15px;
     }
-    .speaker__col_2 {
+    .speaker__col_description {
         margin: 0;
     }
-    .speaker__head_2>p {
+    .speaker__head_2>h3 {
         font-size: 14px;
         line-height: 130.2%;
     }
@@ -456,10 +474,10 @@ body {
     .speaker__img>img {
         width: 80px;
     }
-    .speaker__col_1 {
+    .speaker__col_personage {
         margin: 40px 0 0 19px;
     }
-    .speaker__head_2>p {
+    .speaker__head_2>h3 {
         margin: 45px 0 30px 0;
     }
     .speaker__line>img {
@@ -492,13 +510,13 @@ body {
         line-height: 130.2%;
         margin: 6px 0 12px 0;
     }
-    .speaker__col_2 {
+    .speaker__col_description {
         margin-left: 10px;
     }
     .speaker__head_2>img {
         margin-top: 12px;
     }
-    .speaker__col_3>img {
+    .speaker__col_close-img>img {
         margin: 9px 0 0 -27px;
         width: 20px;
     }
@@ -579,12 +597,7 @@ body {
     }
     .end-block__text.text_head.second {
         width: 271px;
-        margin-left: 47px;
-    }
-    .end-block__text.text_head.second {
-        width: 271px;
-        margin-left: 47px;
-        margin-bottom: 59px;
+        margin: 0 0 59px 47px;
     }
     .end-block__btn>img {
         width: 149px;
@@ -604,7 +617,7 @@ body {
 }
 
 @media (max-width: 375px) {
-    .speaker__col_1 {
+    .speaker__col_personage {
         margin: 40px 0 0 3px;
     }
     .speaker__block_grey {
